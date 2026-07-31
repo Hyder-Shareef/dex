@@ -14,7 +14,11 @@
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
+**Live demo:** [post-agent-two.vercel.app](https://post-agent-two.vercel.app)
+
 Post Agent is an AI content studio for social media. You describe a topic once, and it drafts a tailored post for every platform you pick — LinkedIn, X, Bluesky, Mastodon, Facebook, Instagram, Threads, TikTok, YouTube Shorts — complete with hashtags, a call to action, and a generated visual. Every draft goes through a human approval step before it can be published anywhere.
+
+![Post Agent — Generate page](docs/screenshots/generate.png)
 
 ## Why it exists
 
