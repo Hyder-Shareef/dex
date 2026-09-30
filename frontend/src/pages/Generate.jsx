@@ -168,19 +168,16 @@ function Generate() {
 
         <section className="output-canvas">
           {!result && !loading && (
-            <div className="state-empty">
-              <svg className="empty-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
-                />
-              </svg>
-              <h3 className="empty-title">Your Showroom is Ready</h3>
+            <div className="state-empty cyber-showroom-empty">
+              <div className="empty-telemetry">
+                <span className="telemetry-pill">&gt;|&lt; SYSTEM READY</span>
+                <span className="telemetry-dots">▪ ▪ ▪ ▪ ▪</span>
+              </div>
+              <h1 className="hero-cyber-title">DEX</h1>
+              <p className="hero-cyber-subtitle">AUTONOMOUS MULTI-CHANNEL CONTENT DISPATCH</p>
+              <div className="cyber-ascii-divider">-- [ 09 BROADCAST CHANNELS // HUMAN-IN-THE-LOOP ] --</div>
               <p className="empty-desc">
-                Fill in the topic on the left and pick your target platforms to generate
-                tailored content.
+                Input your campaign focus on the command panel to generate bespoke, platform-compliant variations &amp; AI visual assets.
               </p>
             </div>
           )}

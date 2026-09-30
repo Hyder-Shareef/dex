@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="dGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6A00" />
+      <stop offset="100%" stop-color="#FF3800" />
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#FF4500" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Obsidian Container -->
+  <rect width="64" height="64" rx="14" fill="#030306"/>
+  <rect width="62" height="62" x="1" y="1" rx="13" fill="none" stroke="#FF4500" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- Technical Corner Marks -->
+  <circle cx="8" cy="8" r="1" fill="#FF4500" opacity="0.6"/>
+  <circle cx="56" cy="8" r="1" fill="#FF4500" opacity="0.6"/>
+  <circle cx="8" cy="56" r="1" fill="#FF4500" opacity="0.6"/>
+  <circle cx="56" cy="56" r="1" fill="#FF4500" opacity="0.6"/>
+
+  <!-- High-Impact Stylized Orange 'D' with EvenOdd cutout -->
+  <path fill-rule="evenodd" d="M 17 13 L 33.5 13 C 45.5 13 52 21.5 52 32 C 52 42.5 45.5 51 33.5 51 L 17 51 Z M 25.5 21 L 25.5 43 L 32.5 43 C 39.5 43 43.5 38.5 43.5 32 C 43.5 25.5 39.5 21 32.5 21 Z" fill="url(#dGrad)" filter="url(#neonGlow)"/>
+</svg>
